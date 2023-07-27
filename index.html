@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/ad7ed2fe95.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+   <header >
+    <div class="container  rounded-full mx-auto navbar  md:bg-[#F85559]">
+        <div class="hidden navbar-start lg:flex">
+            <ul class="px-1 menu menu-horizontal">
+              <li><a>Home</a></li>
+                <li><a>About us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
+                
+                
+            </ul>
+            
+          </div>
+        <div class="flex justify-between w-full navbar-center lg:w-auto">
+          <div class="flex"><img src="./images/logo.png" alt="">
+            <a class="text-xl normal-case btn btn-ghost">Fruit Burst</a></div>
+          <div class="dropdown ">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </label>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-blue-100 rounded-box w-52">
+              
+            <li><a>Home</a></li>
+              <li><a>About us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+        </div>
+        
+            </div>
+          
+        <div class="relative hidden navbar-end md:flex">
+          <input class="p-4 px-8 rounded-full" type="search" name="" id="" placeholder="Search here ">
+         <span class="absolute mr-4"><i  class=" fa-solid fa-magnifying-glass"></i></span> 
+        </div>
+    </div>
+    
+
+   </header>
+   <main>
+    <section class="container mx-auto my-8">
+      <div class="w-full carousel">
+        <div id="slide1" class="relative w-full carousel-item">
+          <div class="min-h-screen hero" style="background-image: url(./images/banner1.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mt-2 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                <p class="mb-5">We supply highly quality organic products.</p>
+                <button class="btn btn-primary">Shop Now</button>
+              </div>
+            </div>
+          </div> 
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="relative w-full carousel-item">
+          <div class="min-h-screen hero" style="background-image: url(./images/banner2.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mt-2 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                <p class="mb-5">We supply highly quality organic products.</p>
+                <button class="btn btn-primary">Shop Now</button>
+              </div>
+            </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        </div>
+        <div id="slide3" class="relative w-full carousel-item">
+          <div class="min-h-screen hero" style="background-image: url(./images/banner3.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mt-2 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                <p class="mb-5">We supply highly quality organic products.</p>
+                <button class="btn btn-primary">Shop Now</button>
+              </div>
+            </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        </div>
+        <div id="slide4" class="relative w-full carousel-item">
+          <div class="min-h-screen hero" style="background-image: url(./images/banner4.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mt-2 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                <p class="mb-5">We supply highly quality organic products.</p>
+                <button class="btn btn-primary">Shop Now</button>
+              </div>
+            </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto my-10 space-y-8">
+      <div class="flex items-center justify-between flex-1 gap-20">
+      <div>
+        
+        <h2 class="text-3xl font-extrabold">Deal of the day</h2>
+        <p class="mt-4 font-sm text-semibold">Contrary to popular belief, is not simply random text.
+           It has roots in a piece of classical Latin <br> from 45 BC, making it over 2000 years old.</p>
+        
+      </div>
+      <div>
+        <div class="flex gap-5 font-bold">
+          <div>
+            <span class="font-mono text-4xl countdown">
+              <span style="--value:30;"></span>
+            </span>
+            days
+          </div> 
+          <div>
+            <span class="font-mono text-4xl countdown">
+              <span style="--value:10;"></span>
+            </span>
+            hours
+          </div> 
+          <div>
+            <span class="font-mono text-4xl countdown">
+              <span style="--value:24;"></span>
+            </span>
+            min
+          </div> 
+          <div>
+            <span class="font-mono text-4xl countdown">
+              <span style="--value:51;"></span>
+            </span>
+            sec
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- modal -->
+    <div class="flex">
+      <div class="shadow-xl card w-96 bg-base-100">
+        <figure class="px-10 pt-10">
+          <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="items-center text-center card-body">
+          <h2 class="card-title">12.90$ - 18.85$</h2>
+          <p>Apples</p>
+          <div class="rating rating-lg">
+            <input type="radio" name="rating-9" class="rating-hidden" />
+            <input type="radio" name="rating-9" class="mask mask-star-2" />
+            <input type="radio" name="rating-9" class="mask mask-star-2"  />
+            <input type="radio" name="rating-9" class="mask mask-star-2" />
+            <input type="radio" name="rating-9" class="mask mask-star-2" checked />
+            <input type="radio" name="rating-9" class="mask mask-star-2" />
+          </div>
+          <div></div>
+          <!--  -->
+          <button class="btn" onclick="my_modal_2.showModal()">Details</button>
+          <dialog id="my_modal_2" class="modal">
+            <form method="dialog" class="modal-box">
+              <h3 class="text-lg font-bold">Hello!</h3>
+              <p class="py-4">Press ESC key or click outside to close</p>
+            </form>
+            <form method="dialog" class="modal-backdrop">
+              <button>close</button>
+            </form>
+          </dialog>
+
+        
+        
+        
+      </div>
+    
+    </section>
+   </main>
+    
+</body>
+</html>
