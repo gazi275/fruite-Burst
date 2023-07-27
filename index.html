@@ -11,7 +11,7 @@
 
 </head>
 
-<body>
+<body class="border-2 ">
   <header>
     <div class="container  rounded-full mx-auto navbar  md:bg-[#F85559]">
       <div class="hidden navbar-start lg:flex">
@@ -47,7 +47,7 @@
 
       </div>
 
-      <div class="relative hidden navbar-end md:flex">
+      <div class="relative hidden navbar-end lg:flex">
         <input class="p-4 px-8 rounded-full" type="search" name="" id="" placeholder="Search here ">
         <span class="absolute mr-4"><i class=" fa-solid fa-magnifying-glass"></i></span>
       </div>
@@ -160,28 +160,38 @@
 
         </div>
         <div>
-          <div class="flex gap-5 font-bold lg:flex-row">
-            <div>
-              <span class="font-mono text-4xl countdown">
-                <span style="--value:30;"></span>
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="flex flex-col">
+              <span class="font-mono text-5xl countdown">
+                <span style="--value:15;"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                  <path d="M7.38343 4.30006C7.26413 4.30006 7.14971 4.25267 7.06535 4.16831C6.98099 4.08395 6.93359 3.96953 6.93359 3.85023C6.93359 3.73092 6.98099 3.6165 7.06535 3.53214C7.14971 3.44778 7.26413 3.40039 7.38343 3.40039C7.50273 3.40039 7.61715 3.44778 7.70151 3.53214C7.78587 3.6165 7.83326 3.73092 7.83326 3.85023C7.83326 3.96953 7.78587 4.08395 7.70151 4.16831C7.61715 4.25267 7.50273 4.30006 7.38343 4.30006ZM7.38343 7.89875C7.26413 7.89875 7.14971 7.85135 7.06535 7.76699C6.98099 7.68263 6.93359 7.56821 6.93359 7.44891C6.93359 7.32961 6.98099 7.21519 7.06535 7.13083C7.14971 7.04647 7.26413 6.99908 7.38343 6.99908C7.50273 6.99908 7.61715 7.04647 7.70151 7.13083C7.78587 7.21519 7.83326 7.32961 7.83326 7.44891C7.83326 7.56821 7.78587 7.68263 7.70151 7.76699C7.61715 7.85135 7.50273 7.89875 7.38343 7.89875ZM7.38343 11.4974C7.26413 11.4974 7.14971 11.45 7.06535 11.3657C6.98099 11.2813 6.93359 11.1669 6.93359 11.0476C6.93359 10.9283 6.98099 10.8139 7.06535 10.7295C7.14971 10.6452 7.26413 10.5978 7.38343 10.5978C7.50273 10.5978 7.61715 10.6452 7.70151 10.7295C7.78587 10.8139 7.83326 10.9283 7.83326 11.0476C7.83326 11.1669 7.78587 11.2813 7.70151 11.3657C7.61715 11.45 7.50273 11.4974 7.38343 11.4974Z" stroke="#121212" stroke-width="0.899671" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
               </span>
               days
-            </div>
-            <div>
-              <span class="font-mono text-4xl countdown">
+            </div> 
+            <div class="flex flex-col">
+              <span class="font-mono text-5xl countdown">
                 <span style="--value:10;"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                  <path d="M7.38343 4.30006C7.26413 4.30006 7.14971 4.25267 7.06535 4.16831C6.98099 4.08395 6.93359 3.96953 6.93359 3.85023C6.93359 3.73092 6.98099 3.6165 7.06535 3.53214C7.14971 3.44778 7.26413 3.40039 7.38343 3.40039C7.50273 3.40039 7.61715 3.44778 7.70151 3.53214C7.78587 3.6165 7.83326 3.73092 7.83326 3.85023C7.83326 3.96953 7.78587 4.08395 7.70151 4.16831C7.61715 4.25267 7.50273 4.30006 7.38343 4.30006ZM7.38343 7.89875C7.26413 7.89875 7.14971 7.85135 7.06535 7.76699C6.98099 7.68263 6.93359 7.56821 6.93359 7.44891C6.93359 7.32961 6.98099 7.21519 7.06535 7.13083C7.14971 7.04647 7.26413 6.99908 7.38343 6.99908C7.50273 6.99908 7.61715 7.04647 7.70151 7.13083C7.78587 7.21519 7.83326 7.32961 7.83326 7.44891C7.83326 7.56821 7.78587 7.68263 7.70151 7.76699C7.61715 7.85135 7.50273 7.89875 7.38343 7.89875ZM7.38343 11.4974C7.26413 11.4974 7.14971 11.45 7.06535 11.3657C6.98099 11.2813 6.93359 11.1669 6.93359 11.0476C6.93359 10.9283 6.98099 10.8139 7.06535 10.7295C7.14971 10.6452 7.26413 10.5978 7.38343 10.5978C7.50273 10.5978 7.61715 10.6452 7.70151 10.7295C7.78587 10.8139 7.83326 10.9283 7.83326 11.0476C7.83326 11.1669 7.78587 11.2813 7.70151 11.3657C7.61715 11.45 7.50273 11.4974 7.38343 11.4974Z" stroke="#121212" stroke-width="0.899671" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
               </span>
               hours
-            </div>
-            <div>
-              <span class="font-mono text-4xl countdown">
+            </div> 
+            <div class="flex flex-col">
+              <span class="font-mono text-5xl countdown">
                 <span style="--value:24;"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                  <path d="M7.38343 4.30006C7.26413 4.30006 7.14971 4.25267 7.06535 4.16831C6.98099 4.08395 6.93359 3.96953 6.93359 3.85023C6.93359 3.73092 6.98099 3.6165 7.06535 3.53214C7.14971 3.44778 7.26413 3.40039 7.38343 3.40039C7.50273 3.40039 7.61715 3.44778 7.70151 3.53214C7.78587 3.6165 7.83326 3.73092 7.83326 3.85023C7.83326 3.96953 7.78587 4.08395 7.70151 4.16831C7.61715 4.25267 7.50273 4.30006 7.38343 4.30006ZM7.38343 7.89875C7.26413 7.89875 7.14971 7.85135 7.06535 7.76699C6.98099 7.68263 6.93359 7.56821 6.93359 7.44891C6.93359 7.32961 6.98099 7.21519 7.06535 7.13083C7.14971 7.04647 7.26413 6.99908 7.38343 6.99908C7.50273 6.99908 7.61715 7.04647 7.70151 7.13083C7.78587 7.21519 7.83326 7.32961 7.83326 7.44891C7.83326 7.56821 7.78587 7.68263 7.70151 7.76699C7.61715 7.85135 7.50273 7.89875 7.38343 7.89875ZM7.38343 11.4974C7.26413 11.4974 7.14971 11.45 7.06535 11.3657C6.98099 11.2813 6.93359 11.1669 6.93359 11.0476C6.93359 10.9283 6.98099 10.8139 7.06535 10.7295C7.14971 10.6452 7.26413 10.5978 7.38343 10.5978C7.50273 10.5978 7.61715 10.6452 7.70151 10.7295C7.78587 10.8139 7.83326 10.9283 7.83326 11.0476C7.83326 11.1669 7.78587 11.2813 7.70151 11.3657C7.61715 11.45 7.50273 11.4974 7.38343 11.4974Z" stroke="#121212" stroke-width="0.899671" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
               </span>
               min
-            </div>
-            <div>
-              <span class="font-mono text-4xl countdown">
-                <span style="--value:51;"></span>
+            </div> 
+            <div class="flex flex-col">
+              <span class="font-mono text-5xl countdown">
+                <span style="--value:50;"></span>
+               
               </span>
               sec
             </div>
@@ -415,26 +425,46 @@
 
     </section>
     <section class="container mx-auto mb-24 space-y-10">
-      <div class="min-h-[768px] hero" style="background-image: url(./images/banner1.png);">
-        <div class="hero-overlay bg-opacity-60"></div>
+      <!-- <div class=" w-full lg:min-h-[768px] hero " style="background-image: url(./images/banner1.png);">
+        <div class="hero-overlay bg-opacity-80"></div>
         <div class="text-center -mt-80 hero-content text-neutral-content">
-          <div class="h-full -mt-5">
+          <div class="lg:-mt-5 ">
             <h1 class="text-5xl font-bold ">Meet The Team Section</h1>
             <p class="mt-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
               <br> Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
 
         </div>
-        <div class="flex gap-24 mt-40">
-          <div class="w-1/4 card">
+        
+        <div class="flex flex-col w-full gap-6 mt-40 lg:gap-24 lg:flex-row lg:mx-auto">
+          <div class="w-full lg:w-1/4 card">
             <figure class="">
               <img src="/images/member1.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="items-center text-center text-white card-body">
               <h2 class=" card-title">Awlad Hossain</h2>
 
-              <p>Fruits Expert</p>
-              <div class="text-[20px] ">
+              <p>Fruits Expert</p> -->
+
+
+              
+                <div>
+                    <div id="slide1"
+                        class="relative flex flex-col items-center justify-center w-full h-full py-16 bg-no-repeat bg-cover rounded-lg carousel-item bg-black/50 bg-blend-multiply"
+                        style="background-image: url('images/banner1.png');">
+    
+                        <h1 class="text-4xl font-bold text-[#FFF] mb-7">Meet the team section</h1>
+                        <p class="text-sm font-medium text-[#FFF] mb-7 text-center">This is our team section. You can get
+                            any kind of help from our team members. <br> There are four members in our team. They are: </p>
+    
+                        <div class="grid items-center justify-center w-full gap-20 lg:flex">
+                            <!-- member 1 -->
+                            <div class="flex flex-col items-center justify-center gap-2">
+                                <img src="images/member1.png" alt="">
+                                <h2 class="text-2xl font-bold text-[#FFF]">Awlad</h2>
+                                <p class="text-sm font-medium text-[#FFF]">Fruits Expert</p>
+    
+              <div class="text-[20px] text-white">
                 <i class=" fa-brands fa-facebook"></i>
                 <i class=" fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-linkedin"></i>
@@ -442,93 +472,96 @@
               </div>
 
             </div>
-          </div>
-          <div class="w-1/4 card">
-            <figure class="">
-              <img src="/images/member2.png" alt="Shoes" class="rounded-xl" />
-            </figure>
-            <div class="items-center text-center text-white card-body">
-              <h2 class=" card-title">Safia Chowdhury</h2>
-              <p>Fruits Expert</p>
-              <div class="text-[20px] rounded-full">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-linkedin"></i>
+            <!-- memeber2 -->
+            <div class="flex flex-col items-center justify-center gap-2">
+              <img src="images/member2.png" alt="">
+              <h2 class="text-2xl font-bold text-[#FFF]">Safia Chowdhury</h2>
+              <p class="text-sm font-medium text-[#FFF]">Fruits Expert</p>
 
-              </div>
-            </div>
-          </div>
-          <div class="w-1/4 card">
-            <figure class="">
-              <img src="/images/member3.png" alt="Shoes" class="rounded-xl" />
-            </figure>
-            <div class="items-center text-center text-white card-body">
-              <h2 class=" card-title">Rokib Hossain</h2>
-              <p>Fruits Expert</p>
-              <div class="text-[20px] rounded-full">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-linkedin"></i>
+<div class="text-[20px] text-white">
+<i class=" fa-brands fa-facebook"></i>
+<i class=" fa-brands fa-twitter"></i>
+<i class="fa-brands fa-linkedin"></i>
 
-              </div>
-            </div>
-          </div>
-          <div class="w-1/4 card">
-            <figure class="">
-              <img src="/images/member4.png" alt="Shoes" class="rounded-xl" />
-            </figure>
-            <div class="items-center text-center text-white card-body">
-              <h2 class=" card-title">Chaity</h2>
-              <p>Fruits Expert</p>
-              <div class="text-[20px] rounded-full">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-linkedin"></i>
+</div>
 
-              </div>
-            </div>
+</div>
+<!-- memeber-3 -->
+<div class="flex flex-col items-center justify-center gap-2">
+  <img src="images/member3.png" alt="">
+  <h2 class="text-2xl font-bold text-[#FFF]">Rokib Hossain</h2>
+  <p class="text-sm font-medium text-[#FFF]">Fruits Expert</p>
+
+<div class="text-[20px] text-white">
+<i class=" fa-brands fa-facebook"></i>
+<i class=" fa-brands fa-twitter"></i>
+<i class="fa-brands fa-linkedin"></i>
+
+</div>
+
+</div>
+<!-- member4
+ -->
+ <div class="flex flex-col items-center justify-center gap-2">
+  <img src="images/member4.png" alt="">
+  <h2 class="text-2xl font-bold text-[#FFF]">Chaity</h2>
+  <p class="text-sm font-medium text-[#FFF]">Fruits Expert</p>
+
+<div class="text-[20px] text-white">
+<i class=" fa-brands fa-facebook"></i>
+<i class=" fa-brands fa-twitter"></i>
+<i class="fa-brands fa-linkedin"></i>
+
+</div>
+
+</div>
+          </div>
+          
           </div>
 
 
         </div>
       </div>
     </section>
-    <section class="container mx-auto mt-12 mb-32 space-y-10">
+
+    
+    <section class="container items-center justify-center mx-auto mt-12 mb-32 space-y-10 text-center">
       <div class="text-center ">
         <h2 class="text-4xl font-extrabold ">Why Choose Us</h2>
         <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature
           from 45 BC, making it over 2000 years old.</p>
       </div>
-      <div class="grid grid-cols-3 gap-5">
-        <div>
-          <div class="flex gap-5">
-            <div class="h-12 p-2 mt-3 rounded-full border-5 bg-slate-400"><i class="fa-solid fa-people-group"></i></div>
+      
+      <div class="grid items-center justify-center grid-cols-1 gap-5 md:grid-cols-1 lg:grid-cols-3">
+        <div class="order-2 ">
+          <div class="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
+            <div class="w-12 h-12 p-2 mt-3 rounded-full border-5 bg-slate-400"><i class="fa-solid fa-people-group"></i></div>
             <div class="flex flex-col gap-4">
               <h3 class="text-3xl font-extrabold">Dedicated Team</h3>
-              <div class="w-24 border border-black">
+              <div class="w-24 mx-auto border border-black lg:mx-0">
 
               </div>
               <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
 
             </div>
           </div>
-          <div class="flex gap-5">
+          <div class="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
             <div class="h-12 p-2 mt-3 rounded-full border-5 bg-slate-400 text-[20px]"><i
                 class="fa-brands fa-gratipay"></i></div>
             <div class="flex flex-col gap-4">
               <h3 class="text-3xl font-extrabold">Fresh is Best</h3>
-              <div class="w-20 border border-black">
+              <div class="w-20 mx-auto border border-black lg:mx-0">
 
               </div>
               <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
 
             </div>
           </div>
-          <div class="flex gap-5">
+          <div class="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
             <div class="h-12 p-2 mt-3 rounded-full border-5 bg-slate-400"><i class="fa-solid fa-gift"></i></div>
             <div class="flex flex-col gap-4">
               <h3 class="text-3xl font-extrabold">Gift Certificates</h3>
-              <div class="w-24 border border-black">
+              <div class="w-24 mx-auto border border-black lg:mx-0">
 
               </div>
               <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
@@ -536,41 +569,41 @@
             </div>
           </div>
         </div>
-        <div>
-          <img src="./images/whychoose1.png" alt="">
+        <div class="order-1 lg:order-2">
+          <img class="mx-auto" src="./images/whychoose1.png" alt="">
         </div>
-        <div>
-          <div class="flex flex-row-reverse gap-5">
-            <div class="h-12 p-2 mt-3 rounded-full border-5 bg-slate-400"><i class="fa-solid fa-people-group"></i></div>
-            <div class="flex flex-col items-end gap-4">
+        <div class="order-3 ">
+          <div class="flex flex-col items-center gap-5 lg:flex-row-reverse">
+            <div class="items-center h-12 p-2 mt-3 rounded-full border-5 bg-slate-400"><i class="fa-solid fa-people-group"></i></div>
+            <div class="flex flex-col gap-4 p-4 lg:items-end">
               <h3 class="text-3xl font-extrabold">Dedicated Team</h3>
-              <div class="w-24 border border-black"></div>
-              <p class="text-right">Professional employees are there for you to pick the most amazing and fresh fruits.
+              <div class="w-24 mx-auto border border-black lg:mx-0"></div>
+              <p class="text-center  lg:text-right">Professional employees are there for you to pick the most amazing and fresh fruits.
               </p>
 
             </div>
           </div>
-          <div class="flex flex-row-reverse gap-5 ">
+          <div class="flex flex-col items-center gap-5 lg:flex-row-reverse">
             <div class="h-12 p-2 mt-3 rounded-full border-5 bg-slate-400 text-[20px]"><i
                 class="fa-brands fa-gratipay"></i></div>
             <div class="flex flex-col items-end gap-4">
-              <h3 class="text-3xl font-extrabold">Fresh is Best</h3>
-              <div class="w-24 border border-black">
+              <h3 class="mx-auto text-3xl font-extrabold lg:mx-0">Fresh is Best</h3>
+              <div class="w-24 mx-auto border border-black lg:mx-0">
 
               </div>
-              <p class="text-right">Professional employees are there for you to pick the most amazing and fresh fruits.
+              <p class=" text-centerlg:text-right">Professional employees are there for you to pick the most amazing and fresh fruits.
               </p>
 
             </div>
           </div>
-          <div class="flex flex-row-reverse gap-5">
+          <div class="flex flex-col items-center gap-5 lg:flex-row-reverse">
             <div class="h-12 p-2 mt-3 rounded-full border-5 bg-slate-400"><i class="fa-solid fa-gift"></i></div>
             <div class="flex flex-col items-end gap-4">
-              <h3 class="text-3xl font-extrabold">Gift Certificates</h3>
-              <div class="w-24 border border-black">
+              <h3 class="mx-auto text-3xl font-extrabold lg:mx-0">Gift Certificates</h3>
+              <div class="w-24 mx-auto border border-black lg:mx-0">
 
               </div>
-              <p class="text-right">Professional employees are there for you to pick the most amazing and fresh fruits.
+              <p class="text-center lg:text-right">Professional employees are there for you to pick the most amazing and fresh fruits.
               </p>
 
             </div>
@@ -587,10 +620,11 @@
 
   <footer class="p-10 text-white bg-black footer footer-center">
     <div>
-
+      <div class="flex justify-center gap-5">
       <img src="./images/logo.png" alt="">
       <h3 class="text-3xl font-extrabold">Fruit Burst</h3>
-      <div class="grid grid-cols-6 gap-5 text-[20px] mt-8">
+    </div>
+      <div class="lg:grid lg:grid-cols-6 gap-5 text-sm lg:text-[20px] mt-8 flex  flex-wrap w-full justify-center">
         <a href="#">
           <p>HOME</p>
         </a><a href="#">
@@ -607,7 +641,7 @@
       </div>
     </div>
     <div>
-      <div class="grid grid-flow-col gap-5 text-[40px]">
+      <div class="grid grid-flow-col gap-5 text-[20px] lg:text-[40px]">
         <a href="#"><i class="fa-brands fa-instagram"></i></a>
         <a href="#"><i class="fa-brands fa-facebook"></i></a>
         <a href="#"><i class="fa-brands fa-youtube"></i></a>
