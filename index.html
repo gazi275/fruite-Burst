@@ -50,7 +50,7 @@
 
    </header>
    <main>
-    <section class="container mx-auto my-8">
+    <section class="container mx-auto my-8 space-y-8">
       <div class="w-full carousel">
         <div id="slide1" class="relative w-full carousel-item">
           <div class="min-h-screen hero" style="background-image: url(./images/banner1.png);">
@@ -118,7 +118,7 @@
       </div>
     </section>
     <section class="container mx-auto my-10 space-y-8">
-      <div class="flex items-center justify-between flex-1 gap-20">
+      <div class="flex items-center justify-between flex-1 px-5">
       <div>
         
         <h2 class="text-3xl font-extrabold">Deal of the day</h2>
@@ -157,40 +157,210 @@
       
     </div>
     <!-- modal -->
-    <div class="flex">
-      <div class="shadow-xl card w-96 bg-base-100">
-        <figure class="px-10 pt-10">
-          <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+    <div class="flex flex-1 gap-7">
+      <div class="w-1/4 shadow-xl bg-base-100">
+        <figure class="flex justify-center">
+          <img  src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
         </figure>
         <div class="items-center text-center card-body">
           <h2 class="card-title">12.90$ - 18.85$</h2>
           <p>Apples</p>
           <div class="rating rating-lg">
-            <input type="radio" name="rating-9" class="rating-hidden" />
-            <input type="radio" name="rating-9" class="mask mask-star-2" />
-            <input type="radio" name="rating-9" class="mask mask-star-2"  />
-            <input type="radio" name="rating-9" class="mask mask-star-2" />
-            <input type="radio" name="rating-9" class="mask mask-star-2" checked />
-            <input type="radio" name="rating-9" class="mask mask-star-2" />
+            <input type="radio" name="rating-6" class="rating-hidden" />
+            <input type="radio" name="rating-6" class="mask mask-star-2" />
+            <input type="radio" name="rating-6" class="mask mask-star-2"  />
+            <input type="radio" name="rating-6" class="mask mask-star-2" />
+            <input type="radio" name="rating-6" class="mask mask-star-2"checked />
+            <input type="radio" name="rating-6" class="mask mask-star-2" />
           </div>
-          <div></div>
-          <!--  -->
-          <button class="btn" onclick="my_modal_2.showModal()">Details</button>
-          <dialog id="my_modal_2" class="modal">
-            <form method="dialog" class="modal-box">
-              <h3 class="text-lg font-bold">Hello!</h3>
-              <p class="py-4">Press ESC key or click outside to close</p>
-            </form>
-            <form method="dialog" class="modal-backdrop">
-              <button>close</button>
-            </form>
-          </dialog>
-
-        
+          <div><!-- Open the modal using ID.showModal() method -->
+            <button class="btn" onclick="my_modal_1.showModal()">Details</button>
+            <dialog id="my_modal_1" class="modal">
+              <form method="dialog" class="modal-box">
+                <div class="shadow-xl bg-base-100">
+                  <figure class="flex justify-center">
+                    <img  src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                  </figure>
+                  <div class="items-center text-center card-body">
+                    <h2 class="card-title">12.90$ - 18.85$</h2>
+                    <p>Apples</p>
+                    <div class="rating rating-lg">
+                      <input type="radio" name="rating-6" class="rating-hidden" />
+                      <input type="radio" name="rating-6" class="mask mask-star-2" />
+                      <input type="radio" name="rating-6" class="mask mask-star-2"  />
+                      <input type="radio" name="rating-6" class="mask mask-star-2" />
+                      <input type="radio" name="rating-6" class="mask mask-star-2"checked />
+                      <input type="radio" name="rating-6" class="mask mask-star-2" />
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <form method="dialog" class="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
+          </div>
+        </div>
+      </div>
+      
+         
+<!-- 2nd card -->
+<div class="w-1/4 shadow-xl bg-base-100">
+  <figure class="flex justify-center">
+    <img src="/images/fruit7.png" alt="Shoes" class="rounded-xl" />
+  </figure>
+  <div class="items-center text-center card-body">
+    <h2 class="card-title">12.90$ - 18.85$</h2>
+    <p>Apples</p>
+    <div class="rating rating-lg">
+      <input type="radio" name="rating-7" class="rating-hidden" />
+      <input type="radio" name="rating-7" class="mask mask-star-2" />
+      <input type="radio" name="rating-7" class="mask mask-star-2"  />
+      <input type="radio" name="rating-7" class="mask mask-star-2" />
+      <input type="radio" name="rating-7" class="mask mask-star-2" checked />
+      <input type="radio" name="rating-7" class="mask mask-star-2" />
+    </div>
+    <div>
+      <!-- Open the modal using ID.showModal() method -->
+<button class="btn" onclick="my_modal_2.showModal()">Details</button>
+<dialog id="my_modal_2" class="modal">
+  <form method="dialog" class="modal-box">
+    <div class="shadow-xl bg-base-100">
+      <figure class="flex justify-center">
+        <img src="/images/fruit7.png" alt="Shoes" class="rounded-xl" />
+      </figure>
+      <div class="items-center text-center card-body">
+        <h2 class="card-title">12.90$ - 18.85$</h2>
+        <p>Apples</p>
+        <div class="rating rating-lg">
+          <input type="radio" name="rating-7" class="rating-hidden" />
+          <input type="radio" name="rating-7" class="mask mask-star-2" />
+          <input type="radio" name="rating-7" class="mask mask-star-2"  />
+          <input type="radio" name="rating-7" class="mask mask-star-2" />
+          <input type="radio" name="rating-7" class="mask mask-star-2" checked />
+          <input type="radio" name="rating-7" class="mask mask-star-2" />
+        </div>
+      </div>
+    </div>
+  </form>
+  <form method="dialog" class="modal-backdrop">
+    <button>close</button>
+  </form>
+</dialog>
+    </div>
+        </div>
         
         
       </div>
+      <!-- 3rd card -->
+      <div class="w-1/4 shadow-xl bg-base-100">
+        <figure class="flex justify-center">
+          <img  src="/images/fruit8.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="items-center text-center card-body">
+          <h2 class="card-title">12.90$ - 18.85$</h2>
+          <p>Apples</p>
+          <div class="rating rating-lg">
+            <input type="radio" name="rating-8" class="rating-hidden" />
+            <input type="radio" name="rating-8" class="mask mask-star-2" />
+            <input type="radio" name="rating-8" class="mask mask-star-2"  />
+            <input type="radio" name="rating-8" class="mask mask-star-2" />
+            <input type="radio" name="rating-8" class="mask mask-star-2" checked />
+            <input type="radio" name="rating-8" class="mask mask-star-2" />
+          </div>
+          <div>
+            <!-- Open the modal using ID.showModal() method -->
+<button class="btn" onclick="my_modal_3.showModal()">Details</button>
+<dialog id="my_modal_3" class="modal">
+  <form method="dialog" class="modal-box">
+    <div class="shadow-xl bg-base-100">
+      <figure class="flex justify-center">
+        <img  src="/images/fruit8.png" alt="Shoes" class="rounded-xl" />
+      </figure>
+      <div class="items-center text-center card-body">
+        <h2 class="card-title">12.90$ - 18.85$</h2>
+        <p>Apples</p>
+        <div class="rating rating-lg">
+          <input type="radio" name="rating-8" class="rating-hidden" />
+          <input type="radio" name="rating-8" class="mask mask-star-2" />
+          <input type="radio" name="rating-8" class="mask mask-star-2"  />
+          <input type="radio" name="rating-8" class="mask mask-star-2" />
+          <input type="radio" name="rating-8" class="mask mask-star-2" checked />
+          <input type="radio" name="rating-8" class="mask mask-star-2" />
+        </div>
+      </div>
+    </div>
+  </form>
+  <form method="dialog" class="modal-backdrop">
+    <button>close</button>
+  </form>
+</dialog>
+          </div>
+        </div>
+      </div>
     
+    <div class="w-1/4 shadow-xl bg-base-100">
+      <figure class="flex justify-center">
+        <img  src="/images/fruit9.png" alt="Shoes" class="rounded-xl" />
+      </figure>
+      <div class="items-center text-center card-body">
+        <h2 class="card-title">12.90$ - 18.85$</h2>
+        <p>Apples</p>
+        <div class="rating rating-lg">
+          <input type="radio" name="rating-9" class="rating-hidden" />
+          <input type="radio" name="rating-9" class="mask mask-star-2" />
+          <input type="radio" name="rating-9" class="mask mask-star-2"  />
+          <input type="radio" name="rating-9" class="mask mask-star-2" />
+          <input type="radio" name="rating-9" class="mask mask-star-2" checked />
+          <input type="radio" name="rating-9" class="mask mask-star-2" />
+        </div>
+        <!-- Open the modal using ID.showModal() method -->
+<button class="btn" onclick="my_modal_4.showModal()">Details</button>
+<dialog id="my_modal_4" class="modal">
+  <form method="dialog" class="modal-box">
+    <div class="shadow-xl bg-base-100">
+      <figure class="flex justify-center">
+        <img  src="/images/fruit9.png" alt="Shoes" class="rounded-xl" />
+      </figure>
+      <div class="items-center text-center card-body">
+        <h2 class="card-title">12.90$ - 18.85$</h2>
+        <p>Apples</p>
+        <div class="rating rating-lg">
+          <input type="radio" name="rating-9" class="rating-hidden" />
+          <input type="radio" name="rating-9" class="mask mask-star-2" />
+          <input type="radio" name="rating-9" class="mask mask-star-2"  />
+          <input type="radio" name="rating-9" class="mask mask-star-2" />
+          <input type="radio" name="rating-9" class="mask mask-star-2" checked />
+          <input type="radio" name="rating-9" class="mask mask-star-2" />
+        </div>
+      </div>
+    </div>
+  </form>
+  <form method="dialog" class="modal-backdrop">
+    <button>close</button>
+  </form>
+</dialog>
+      </div>
+    </div>
+        
+    
+  </div>
+  <div class="flex justify-center">
+    <button class="text-white btn btn-error">Shop All</button>
+  </div>
+    
+    
+    </section>
+    <section class="container mx-auto my-10 space-y-8">
+      <div class="min-h-screen hero" style="background-image: url(./images/banner1.png);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="text-center -mt-80 border-y-8 hero-content text-neutral-content">
+          <div class="h-full -mt-5">
+            <h1 class="text-5xl font-bold ">Meet The Team Section</h1>
+            <p >Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+        </div>
+      </div>
     </section>
    </main>
     
